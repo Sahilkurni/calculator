@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.outerlayer{
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 50px;
+    background-color: gray;
+
+    display: flex;
+    flex-direction: column;     /*align the items in center in column*/
+    align-items: center;        /*align items focus on cross access*/
+    justify-content: center; /*focus on main access*/
+    gap: 0.5em; /*put the gap between the elements of this div*/
+
+
+}
+.display{
+    border: 1px solid black;
+    height: 15%;
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(193, 235, 173);
+    display: flex;
+    align-content: center;
+
+}
+.keypad{
+    height: 80%;
+    width: 90%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;     /*align the items in center in column*/
+    align-items: center;        /*align items focus on cross access*/
+    justify-content: center; /*focus on main access*/
+    gap: 1em;
+
+}
+.buttons{
+    height: 15%;
+    width: 95%;
+
+    gap: 1.5em;
+    display: flex;
+    flex-direction: row;
+}
+.calc-butn{
+    height: 90%;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 5px;   
+    background-color: yellow;
+    font-size: larger;
+}
+.row{
+    height: 90%;
+    width: 46%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: orange;
+    font-size: larger;
+}
+.content{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    text-align: right;
+    margin-top: 29px;
+}
